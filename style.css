@@ -1,0 +1,483 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #31006E ;
+    padding-bottom: 23px;
+    padding-top: 23px;
+    position: fixed;
+    width: 100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    float: right;
+}
+
+#menu{
+list-style-type: none;
+}
+
+#menu li{
+    display: inline-block;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+
+#menu li a.active{
+    color: #EB008C;
+}
+
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#intro{
+    background-color: #31006E;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(./images/banner-pattern.png);
+background-repeat: no-repeat;
+background-position: center right;
+background-size: 50% auto;
+/* margin-right: 379px;
+padding: 0px 20px; */
+}
+
+h1{
+    color: white;
+    font-size: 32px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#whitebox{
+    background: white;
+    width: 50%;
+    padding:  20px 30px;
+    margin-top: 30px;
+}
+
+#whitebox small{
+    color: #7f7f7f;
+}
+
+#whitebox h2{
+    color:#31006E;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 48px;
+    font-weight: lighter;
+}
+#whitebox p{
+    font-weight: lighter;
+}
+#whitebox {
+    color:#EB008C; 
+}
+
+ #whitebox .p1{
+    margin-bottom: 17px;
+}
+
+#sec{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image:url(./images/building.png);
+    background-repeat: no-repeat;
+    background-position: 80% center;
+    background-size: 38% auto;
+    background-color: white;
+}
+
+#sec #par1{
+    margin-bottom: 24px;
+    width: 65%;
+    color: #333333;
+}
+#sec #par2{
+    margin-bottom: 24px;
+    width: 65%;
+    color: #333333;
+}
+
+#sec1 {
+    background-image: url(./images/parallax-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    background-attachment: fixed;
+}
+
+#sec2{
+    padding: 64px 64px 120px;
+    background-image: url(./images/join.png);
+    background-repeat: no-repeat;
+    background-size: 70% auto;
+    background-position: center 110%; 
+}
+
+
+#sec2  h2{
+    color:#2E3192;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight:lighter;
+    padding-bottom: 20px;
+    text-align: center;
+}
+ #sec2 p{
+    font-size:16px;
+    color:#333333;
+    padding-bottom: 24px;
+    text-align: center;
+ }
+ #sec2 a{
+    color:#EB008C;
+    font-size: 24px;
+    text-decoration: none;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+    margin-left: 170px;
+ }
+
+
+ #whitebox2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+ }
+ #whitebox2 .whitebox-h2{
+    color: #333;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+#whitebox2 p{
+    color: #333333;
+    font-weight: lighter;
+}
+
+ #btn a{
+    font-size: 16px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    color: #10069f;
+    background-color: white;
+   border: 1px solid #10069f;
+   border-radius: 3px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 24px;
+ }
+ #btn{
+    text-align: center;
+ }
+
+#btn #a1{
+    margin-right: 5px;
+    margin-top: 5px;
+}
+#btn #a1:hover{
+    color: #fff;
+    background-color: #EB008C;
+}
+#btn #a2:hover{
+    color: #fff;
+    background-color: #EB008C;
+}
+#btn #a2{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+footer{
+    background-color: #EAEAEA;
+    padding-top: 35px;
+}
+
+#navigate{
+    width: 65%;
+    height: auto;
+    display: inline-block;
+}
+#contact{
+    width: 35%;
+    height: auto;
+    display: inline-block;
+   
+
+
+}
+#navigate, #contact{
+    vertical-align: top;
+}
+.heading{
+    color:#2E3192;
+    font-size: 21px;
+    font-weight: lighter;
+    padding: 15px 0px;
+}
+
+.list{
+    display: inline-block;
+    width: 32.8%;
+}
+.list-1{
+    list-style-type: none;
+}
+
+.list-1 li{
+    list-style-type: none;
+    font-size: 14.4px;
+    color: #666;
+}
+
+.list-1 .l1, .list-1 .list-pad{
+    margin-bottom: 8px;
+}
+
+#cont{
+    width: 100%;
+    margin-bottom: 21.6px;
+}
+ 
+#coti-bold{
+    font-weight: 900;
+}
+.lower{
+    padding-top: 35px ;
+    padding-bottom: 30px;
+}
+#copyright{
+    width: 70%;
+    display: inline-block;
+    height: auto;
+    margin-bottom: 21.6px;
+}
+#coti-logo{
+    width: 30%;
+    display: inline-block;
+    height: auto;
+}
+ 
+#copyright, #coti-logo{
+    vertical-align: center;
+}
+
+
+/* media queries */
+/* For screens with a max-width of 500px */
+/* mobile */
+@media (max-width: 576px) {
+    #menu {
+        width: 100%;
+        text-align: center;
+    }
+    .container {
+        width: 90%;
+    }
+
+    #intro{
+        background-image: none;
+    }
+
+    header {
+        padding: 15px 0;
+    }
+
+    #whitebox {
+        width: 100%;
+    }
+    h1 {
+        font-size: 25px;
+        font-weight: lighter;
+    }
+    #whitebox h2{
+        font-size: 34px;
+    }
+    #whitebox p{
+        font-size:13px ;
+    }
+    #sec #par1,
+    #sec #par2 {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    #sec2{
+        width: 100%;
+    }
+#sec2 #active1{
+font-size: 20px;
+margin-left: 0;
+text-align: center;
+margin-left: 30px;
+}
+
+#whitebox2 .whitebox-h2{
+    font-size: 20px;
+}
+
+#whitebox2 p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+    #btn a {
+        font-size: 16px;
+        padding: 10px 12px;
+    }
+
+    footer{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    footer #navigate,
+    footer #contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+#contact .list-1,  #navigate .list-1{
+    text-align: center;
+}
+    #copyright{
+    margin-left: 125px;
+    }
+    footer #coti-logo {
+        width: 100%;
+        text-align: center;
+        margin-left: 35px;
+    }
+    .lower{
+        padding: 0;
+    }
+}
+
+/* For screens between 501px and 1000px */
+/* tablet */
+@media (min-width: 577px) and (max-width: 1199px) {
+    .container {
+        width: 100%;
+    }
+    header {
+        padding: 25px 0;
+    }
+    #intro{
+        background-image: none;
+    }
+    #menu li a {
+        padding: 8px 12px;
+    }
+
+    h1 {
+        font-size: 26px;
+        font-weight: lighter;
+    }
+
+    #whitebox {
+        width: 70%;
+    }
+
+    #whitebox h2{
+        font-size: 26px;
+        font-weight: lighter;
+    }
+
+#whitebox p{
+    font-size: 11px;
+}
+
+    #sec #par1,
+    #sec #par2 {
+        width: 80%;
+        font-size: 11px;
+    }
+
+    #sec2 {
+        padding: 52px 52px 120px;
+        background-position: 30% bottom;
+        background-size: 100% auto;
+    }
+    #sec2 h2{
+        font-size: 32px;
+        font-weight: lighter;
+    }
+
+    #sec2 p{
+        font-size: 11px;
+    }
+
+    #sec2 #active1{
+        font-size:18px;
+        font-weight: lighter;
+        padding: 10px 0px;
+        margin-left: 0;
+        margin-right: 60px;
+    }
+
+    #whitebox2 .whitebox-h2 {
+        font-size: 32px;
+        font-weight: lighter;
+    }
+
+    #whitebox2 p{
+        font-size: 13px;
+    }
+
+#btn{
+    margin-top: 10px;
+}
+
+    #btn a {
+        padding: 15px 26px;
+        font-size: 14px;
+        font-weight: lighter;
+    }
+
+    footer{
+        padding: 35px 20px;
+    }
+
+    footer #navigate{
+        width: 75%;
+        font-size: 17px;
+    }
+
+   .list-1 li{
+        font-size: 11px;
+    }
+
+    #contact{
+        float: right;
+        width: 25%
+    }
+
+    #contact h2{
+        font-size: 17px;
+    }
+    footer #copyright {
+    float: left;
+    }
+    footer #coti-logo {
+        float: right;
+    }
+}
